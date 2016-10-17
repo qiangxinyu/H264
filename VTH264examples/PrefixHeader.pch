@@ -1,0 +1,15 @@
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//static NSString * host = @"192.168.0.25";
+//static NSString * host = @"192.168.0.137";
+static NSString * host = @"192.168.0.55";
+static int port = 1101122;
+#endif
